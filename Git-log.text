@@ -1,0 +1,20 @@
+Viewing the commit history
+
+Git Log
+
+Commands:
+
+git log -p or --patch: Shows diff introduced in each commit
+Also number can be used the number of changes (git log -p -2)
+
+git log --stat: Shows the statistics of what happened during the commits
+
+git log --pretty=oneline: Shows the log of each commit in a single line
+
+git log --pretty=format: Allows us to specify our own log output format
+[link: https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History#pretty_format]
+
+
+Important one to remember among those is 
+git log --pretty=format:"%h %s" --graph
+
