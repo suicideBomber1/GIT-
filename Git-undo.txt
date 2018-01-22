@@ -1,0 +1,19 @@
+Undoing Things in GIT
+git commit --ammend
+
+Unstaging a staged file
+git reset HEAD <file name>
+
+This command is a bit strange. The file is modified by not staged to commit
+
+git reset can be a dangerous command, especially if you provide the --hard flag. However, in the scenario described above, the file in your working directory is not touched, so it’s relatively safe.
+
+Unmodifying a Modified File
+git checkout --<file name> to discard changes in working directory
+It’s important to understand that git checkout -- <file> is a dangerous command. Any changes you made to that file are gone — Git just copied another file over it. Don’t ever use this command unless you absolutely know that you don’t want the file.
+
+If you would like to keep the changes you’ve made to that file but still need to get it out of the way for now, we’ll go over stashing and branching in Git Branching; these are generally better ways to go.
+
+
+
+
