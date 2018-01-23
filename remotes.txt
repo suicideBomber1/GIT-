@@ -1,0 +1,10 @@
+Working with remotes
+
+Remotes repos are versions of your projects that are hosted on the internet or on some other network
+
+Showing your remotes
+
+To see the remotes that you have configured use 
+$ git remote 
+For a more verbose output we need to mention -v
+$ git remote -v
