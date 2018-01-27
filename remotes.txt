@@ -8,3 +8,29 @@ To see the remotes that you have configured use
 $ git remote 
 For a more verbose output we need to mention -v
 $ git remote -v
+
+Adding a remote repository 
+$ git remote add <remote name> <url>
+
+If we want to fetch all the information that the remotes repo has that we dont have
+$ git fetch <remote name>
+
+"git fetch" downloads all the added info to the local repo after cloning, but does not merge the file. 
+
+"git pull" command does download the additional info and also merges the with the current branch.
+
+Pushing to remotes
+
+When we want to push the project to the remote 
+$ git push <remote> <branch>
+
+Inspecting a remote
+$ git remote show <remote name>
+
+Renaming remotes
+$ git remote rename <present file name> <new file name>
+
+Removing remotes
+$ git remote remove <remote name>
+
+
