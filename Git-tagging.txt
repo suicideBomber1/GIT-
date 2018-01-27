@@ -14,3 +14,36 @@ Creating Tags
 ==============
 Two types of tags: lightweight & annotated
 
+Annotated tags:
+===============
+$ git tag -a v1.4 -m "version 1.4"
+
+To view the tag data use
+$ git show 
+
+Light weight tags:
+==================
+$ git tag v1.4-1w
+(No need to mention -a, -s, -m for light weight tags)
+
+Tagging later
+==============
+$ git tag v1.2 <commit id>
+
+Sharing Tags
+=============
+Git push command does not push the tags in the local server to remote server. So, if we want to push the tags we need to do it seperately, just like pushing branches.
+$ git push origin <tag name>
+
+To push all the tags to the remote server
+$ git push origin --tags
+
+Checking out tags
+=================
+NEED TO REVISIT
+
+
+
+
+
+
