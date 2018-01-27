@@ -1,0 +1,16 @@
+Tags are used to mark the important points in the history of a file. Typically used to mark the versions of releases.
+
+Listing of Tags
+===============
+$ git tag      (**with optional --list or -l)
+
+Searching tags
+===============
+$ git tag --list "tag name"
+
+Note: If, you’re supplying a wildcard pattern to match tag names, the use of -l or --list is mandatory.
+
+Creating Tags
+==============
+Two types of tags: lightweight & annotated
+
