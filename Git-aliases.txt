@@ -1,0 +1,6 @@
+Git aliases
+
+Git doesn't automatically infer your commands, so setting up aliases can help us from typing the entire command.
+
+There are many files in the internet which you can look and modify your aliases but, be careful enough to not loose the basics by customizing even the basic commmands. Keep a balance.
+
