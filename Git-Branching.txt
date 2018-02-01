@@ -1,0 +1,32 @@
+Git Branching
+=============
+
+Branching means you diverge from the main line and work on with changes without messing with the original code.
+
+**** Git branching is a killer feature ****
+
+To create a new branch to master
+$ git branch <branch name>
+
+To point HEAD pointer to the new branch, we need to checkout this branch.
+$ git checkout <branch name>
+
+Now all the changes made will be in this new branch and will not affect the master branch
+
+To create a new branch and switch to it at the same time, you can run the git checkout command with the -b switch:
+$ git checkout -b <branch name>
+
+This is shorthand for:
+
+$ git branch <branch name>
+$ git checkout <branch name>
+
+Deleting a branch (if necessary after merging the branch with master)
+$ git branch -d hotfix
+
+Git Merging
+============
+
+
+
+
