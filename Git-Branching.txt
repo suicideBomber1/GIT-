@@ -27,6 +27,40 @@ $ git branch -d hotfix
 Git Merging
 ============
 
+Suppose you’ve decided that your issue #53 work is complete and ready to be merged into your master branch. In order to do that, you’ll merge your iss53 branch into master. All you have to do is check out the branch you wish to merge into and then run the git merge command:
+
+$ git checkout master
+  Switched to branch 'master'
+$ git merge iss53
+  Merge made by the 'recursive' strategy.
+  index.html |    1 +
+  1 file changed, 1 insertion(+)
+
+$ git branch -d iss53
+
+The git branch command does more than just create and delete branches. If you run it with no arguments, you get a simple listing of your current branches:
+$ git branch (or git br (I have aliased it in my case))
+
+To see the last commit on each branch, you can run git branch -v:
+$ git br -v
+
+To see which branches are already merged:
+$ git br --merged
+(Lists the branches that are already merged)
+
+To see branches that are not merged
+$ git br --no-merged
+
+To delete the branch
+$ git br -d <branch name> WILL FAIL !!!!
+$ git br -D <branch name> WILL WORK ***
+
+The options described above --merged and --no-merged will, if not given a commit or a branch name as an argument shows you what is, respectively, merged or not merged on your current branch
+
+We can provide an additional argument to ask about the merge state wrt some other branch without checking out that branch first, as in, what is not merged into the master branch
+$ git br --no-merged master
+
+
 
 
 
