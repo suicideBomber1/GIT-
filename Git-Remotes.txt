@@ -1,0 +1,6 @@
+GIT REMOTE BRANCHES
+=====================
+
+Showing all the remote references 
+$ git remote show 
+
