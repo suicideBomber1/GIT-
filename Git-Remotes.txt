@@ -4,3 +4,6 @@ GIT REMOTE BRANCHES
 Showing all the remote references 
 $ git remote show 
 
+I did not update it as there is a lot to cover in Git branching.... Refer to the PRO GIT for this lesson
+
+
