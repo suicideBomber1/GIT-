@@ -1,0 +1,19 @@
+REBASING
+========
+
+In git there are two ways to integrate to the branch...
+1. Merge
+2. Rebase
+
+We know how merge happens (3 way merge)
+
+Now Rebasing
+
+With the rebase command we take all the changes made in one branch and replay all these changes on another one
+
+
+
+****READ THIS*****
+https://stackoverflow.com/questions/804115/when-do-you-use-git-rebase-instead-of-git-merge
+
+
